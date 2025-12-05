@@ -1,5 +1,18 @@
 # CamillaSinensis
 
+## Production methods
+
+- Green tea 
+	- Pick fresh leaves, steam them, leave to dry.
+- Brick tea
+	- Pick fresh leaves, steam them, pulverize into paste, set in mold, leave to dry.
+- Black tea
+	- Pick fresh leaves, sun dry (wither), then smoke over wood fire.
+- Yellow tea 
+	- Pick fresh leaves, steam them, seal in a container, leave to dry.
+- Pu'er tea 
+	- Pick fresh leaves, steam them, leave to dry, wrap up for aging.
+
 ## Roadmap
 
 ### 0.1
@@ -18,6 +31,7 @@
 ### 0.4
 
 - Tea-related
+- Tea brewing and processing mechanics added.
 
 ### 0.5
 
@@ -26,21 +40,17 @@
 
 ### 0.6
 
-- Tea brewing and processing mechanics added.
+- Teaware clay recipes added.
 
 ### 0.7
 
-- Teaware clay recipes added.
+- Tea buffs working.
 
 ### 0.8
 
-- Tea buffs working.
-
-### 0.9
-
 - Connects with X-Skills.
 
-### 0.A
+### 0.9
 
 - Tea pets, with C# logic to pour tea over them.
 
