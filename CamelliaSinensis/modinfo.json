@@ -1,0 +1,14 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "camelliasinensis",
+    "name": "CamelliaSinensis",
+    "authors": [
+        "Genovefa"
+    ],
+    "description": "Adds the tea plant Camellia Sinensis and various tea products derived from it.",
+    "version": "0.1.0",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}
