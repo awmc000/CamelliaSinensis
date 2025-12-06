@@ -1,4 +1,4 @@
-# CamillaSinensis
+﻿# CamillaSinensis
 
 ## Production methods
 
@@ -15,45 +15,47 @@
 
 ## Roadmap
 
-### 0.1
+✔×
+
+### 0.1 ×
 
 - Art assets created.
 
-### 0.2
+### 0.2 ×
 
 - Tea plants in game.
 - Tea plants spawn in nature.
 
-### 0.3
+### 0.3 ×
 
 - Tea related items added to the game.
 
-### 0.4
+### 0.4 ×
 
 - Tea-related
 - Tea brewing and processing mechanics added.
 
-### 0.5
+### 0.5 ×
 
 - Tea items added to loot tables for ruins etc.
 - Connects with Better Ruins.
 
-### 0.6
+### 0.6 ×
 
 - Teaware clay recipes added.
 
-### 0.7
+### 0.7 ×
 
 - Tea buffs working.
 
-### 0.8
+### 0.8 ×
 
 - Connects with X-Skills.
 
-### 0.9
+### 0.9 ×
 
 - Tea pets, with C# logic to pour tea over them.
 
-### 1.0
+### 1.0 ×
 
 - Refactors, bug fixes, improvements from 0.9 based on user feedback.

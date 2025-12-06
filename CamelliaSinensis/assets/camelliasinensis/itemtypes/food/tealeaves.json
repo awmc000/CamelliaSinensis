@@ -1,0 +1,96 @@
+{
+  "code": "tealeaves",
+  "maxstacksize": 64,
+  "materialDensityByType": {
+    "*": 600
+  },
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  {
+				"*-capparisspinosa": 30,				
+				"*-vitisvinifera-*": 120
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"@*-(vitisvinifera-blue|vitisvinifera-purple|vitisvinifera-red|vitisvinifera-black)": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonesmediterraneanregion:juiceportion-vitisvinifera-red", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonesmediterraneanregion:pressedmash-vitisvinifera-red", "stacksize": 1 }
+			},
+			"@*-(vitisvinifera-yellow|vitisvinifera-green|vitisvinifera-white)": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonesmediterraneanregion:juiceportion-vitisvinifera-white", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonesmediterraneanregion:pressedmash-vitisvinifera-white", "stacksize": 1 }
+			},
+		}
+	},
+  "shapebytype": {
+    "*": { "base": "floralzonesmediterraneanregion:item/food/fruit/vitisvinifera" }
+  },
+  "textureByType": {
+    "*": { "base": "floralzonesmediterraneanregion:item/food/fruit/{fruit}" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-capparisspinosa": {
+      "satiety": 20,
+      "foodcategory": "Fruit"
+    },
+    "*": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+  },
+  "guiTransformByType": {
+    "*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 114, "y": -93, "z": -62 },
+			"origin": { "x": 0.5299, "y": 0.22, "z": 0.5299 },
+			"scale": 2.6
+    }
+  },
+  "fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 39, "y": 3, "z": -30 },
+			"origin": { "x": 0.3, "y": 0.2, "z": 0.5 },
+			"scale": 0.33
+		}
+  },
+  "tpHandTransformByType": {
+    "*":{
+			"translation": { "x": -2.05, "y": -1.52, "z": -1.27 },
+			"rotation": { "x": 13, "y": 35, "z": -79 },
+			"scale": 0.33
+    }
+	},
+	"tpOffHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.1, "y": -1.4299, "z": -1.25 },
+			"rotation": { "x": -6, "y": -33, "z": -93 },
+			"scale": 0.36
+		}
+	},
+}

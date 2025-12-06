@@ -1,0 +1,10 @@
+{
+	"ingredientPattern": "K,P",
+	"ingredients": {
+		"K": { "type": "item", "code": "game:knife-*", "isTool": true },
+		"P": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-cynaracardunculus", "quantity": 3    }
+	},
+	"width": 1,
+	"height": 2,
+	"output": { "type": "item", "code": "floralzonesmediterraneanregion:seeds-cynaracardunculusscolymus", "quantity": 1   }
+}
