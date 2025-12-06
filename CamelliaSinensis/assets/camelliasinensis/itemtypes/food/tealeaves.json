@@ -12,38 +12,19 @@
 				"*-vitisvinifera-*": 120
 			},
 			"foodcategory": "Fruit" 
-		},
-		"inPiePropertiesByType": {
-			"*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling" }
-		},
-		"juiceablePropertiesByType": {
-			"@*-(vitisvinifera-blue|vitisvinifera-purple|vitisvinifera-red|vitisvinifera-black)": {
-				"litresPerItem": 0.3125,
-				"liquidStack": { "type": "item", "code": "floralzonesmediterraneanregion:juiceportion-vitisvinifera-red", "stacksize": 1 },
-				"pressedStack": { "type": "item", "code": "floralzonesmediterraneanregion:pressedmash-vitisvinifera-red", "stacksize": 1 }
-			},
-			"@*-(vitisvinifera-yellow|vitisvinifera-green|vitisvinifera-white)": {
-				"litresPerItem": 0.3125,
-				"liquidStack": { "type": "item", "code": "floralzonesmediterraneanregion:juiceportion-vitisvinifera-white", "stacksize": 1 },
-				"pressedStack": { "type": "item", "code": "floralzonesmediterraneanregion:pressedmash-vitisvinifera-white", "stacksize": 1 }
-			},
 		}
 	},
   "shapebytype": {
-    "*": { "base": "floralzonesmediterraneanregion:item/food/fruit/vitisvinifera" }
+    "*": { "base": "game:item/food/fruit/blueberry" }
   },
   "textureByType": {
-    "*": { "base": "floralzonesmediterraneanregion:item/food/fruit/{fruit}" }
+    "*": { "base": "game:item/food/fruit/blueberry" }
   },
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ]
   },
   "nutritionPropsByType": {
-    "*-capparisspinosa": {
-      "satiety": 20,
-      "foodcategory": "Fruit"
-    },
     "*": {
       "satiety": 80,
       "foodcategory": "Fruit"
