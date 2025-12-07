@@ -8,8 +8,7 @@
 		"foodTags": ["{fruit}"],
 		"nutritionPropsWhenInMeal": {
 			"satietyByType":  {
-				"*-capparisspinosa": 30,				
-				"*-vitisvinifera-*": 120
+				"*": 120
 			},
 			"foodcategory": "Fruit" 
 		}
