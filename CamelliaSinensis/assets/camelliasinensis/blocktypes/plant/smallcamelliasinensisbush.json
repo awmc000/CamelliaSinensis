@@ -1,33 +1,33 @@
 {
-  code: "smallcamelliasinensisbush",
-  class: "BlockBerryBush",
-  attributes: {
-    foodTagsByType: {
+  "code": "smallcamelliasinensisbush",
+  "class": "BlockBerryBush",
+  "attributes": {
+    "foodTagsByType": {
       "*-ripe": [ "sweetBerryBush" ]
     },
-    butterflyFeedByType: {
+    "butterflyFeedByType": {
       "*-flowering": true
     },
-    beeFeedByType: {
+    "beeFeedByType": {
       "*-flowering": true
     },
-    forageStatAffected: true,
-    reinforcable: true,
-    resetBelowTemperature: -1,
-    stopBelowTemperature: 4,
-    revertBlockBelowTemperature: -4,
+    "forageStatAffected": true,
+    "reinforcable": true,
+    "resetBelowTemperature": -1,
+    "stopBelowTemperature": 4,
+    "revertBlockBelowTemperature": -4,
 
-    resetAboveTemperature: 35,
-    stopAboveTemperature: 30,
-    revertBlockAboveTemperature: 38,
-    overrideRandomDrawOffset: 14,
+    "resetAboveTemperature": 35,
+    "stopAboveTemperature": 30,
+    "revertBlockAboveTemperature": 38,
+    "overrideRandomDrawOffset": 14
   },
-  entityclass: "BerryBush",
-  behaviorsByType: {
+  "entityclass": "BerryBush",
+  "behaviorsByType": {
     "*-ripe": [
       {
-        name: "Harvestable",
-        properties: {
+        "name": "Harvestable",
+        "properties": {
           "harvestTime": 0.6,
           "harvestedStack": {
             "type": "item",
@@ -38,88 +38,83 @@
           "exchangeBlock": true
         }
       }
-    ],
+    ]
   },
-  variantgroups: [
+  "variantgroups": [
     {
-      code: "state",
-      states: [ "empty", "flowering", "ripe" ]
-    },
+      "code": "state",
+      "states": [ "empty", "flowering", "ripe" ]
+    }
   ],
-  creativeinventory: {
+  "creativeinventory": {
     "general": [ "*" ],
     "flora": [ "*" ]
   },
-  renderpass: "OpaqueNoCull",
-  renderAlphaTest: 0.4,
-  randomDrawOffset: true,
-  shapeByType: {
+  "renderpass": "OpaqueNoCull",
+  "renderAlphaTest": 0.4,
+  "randomDrawOffset": true,
+  "shape": {
+    "base": "block/basic/cross"
+  },
+  "blockmaterial": "Plant",
+  "texturesByType": {
     "*-empty": {
-      base: "game:block/plant/berrybush/small*",
-      selectiveElements: [ "branchesN", "branchesS", "Leaves", "Largeleaves/*" ]
-    },
-    "*": { base: "game:block/plant/berrybush/small*" },
-  },
-  blockmaterial: "Plant",
-  textures: {
-    "leavessmall": { "base": "camelliasinensis:block/plant/berrybush/large/leaves/camelliasinensis" },
-    "leaveslarge": { "base": "camelliasinensis:block/plant/berrybush/large/leaves/camelliasinensis" },
-  },
-  texturesByType: {
+      "base": {"camelliasinensis:camelliasinensis-empty"}
+    }
     "*-flowering": {
       "flowerberrysmall": { "base": "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" },
-      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" },
+      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" }
     },
     "*-ripe": {
       "flowerberrysmall": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" },
-      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" },
+      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" }
     }
   },
-  sideopaque: {
-    all: false
+  "sideopaque": {
+    "all": false
   },
-  sidesolid: {
-    all: false
+  "sidesolid": {
+    "all": false
   },
-  replaceable: 3000,
-  lightAbsorption: 0,
-  resistance: 0.5,
-  collisionbox: null,
-  sounds: {
-    place: "block/plant",
-    break: "block/plant",
-    hit: "block/plant",
-    inside: "walk/inside/leafy/bushrustle*"
+  "replaceable": 3000,
+  "lightAbsorption": 0,
+  "resistance": 0.5,
+  "collisionbox": null,
+  "sounds": {
+    "place": "block/plant",
+    "break": "block/plant",
+    "hit": "block/plant",
+    "inside": "walk/inside/leafy/bushrustle*"
   },
-  rainPermeable: false,
-  dropsByType: {
+  "rainPermeable": false,
+  "dropsByType": {
     "*-ripe": [
       {
-        type: "block",
-        code: "smallcamelliasinensisbush-empty",
-        quantity: { avg: 1 }
+        "type": "block",
+        "code": "smallcamelliasinensisbush-empty",
+        "quantity": { "avg": 1 }
       },
       {
-        type: "item",
-        code: "tealeaves",
-        quantity: { avg: 4.4 }
-      },
+        "type": "item",
+        "code": "tealeaves",
+        "quantity": { "avg": 4.4 }
+      }
     ],
     "*": [
       {
-        type: "block",
-        code: "smallcamelliasinensisbush-empty",
-        quantity: { avg: 1 }
+        "type": "block",
+        "code": "smallcamelliasinensisbush-empty",
+        "quantity": { "avg": 1 }
       }
     ]
   },
-  materialDensity: 200,
-  vertexFlags: {
-    zOffset: 2
+  "materialDensity": 200,
+  "vertexFlags": {
+    "zOffset": 2
   },
-  frostable: true,
-  combustibleProps: {
-    burnTemperature: 600,
-    burnDuration: 10,
+  "frostable": true,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
   }
 }

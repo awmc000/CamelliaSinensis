@@ -1,110 +1,108 @@
 {
-  code: "bigcamelliasinensisbush",
-  class: "BlockBerryBush",
-  attributes: {
-    foodTagsByType: {
+  "code": "bigcamelliasinensisbush",
+  "class": "BlockBerryBush",
+  "attributes": {
+    "foodTagsByType": {
       "*-ripe": [ "sweetBerryBush" ]
     },
-    butterflyFeedByType: {
+    "butterflyFeedByType": {
       "*-flowering": true
     },
-    beeFeedByType: {
+    "beeFeedByType": {
       "*-flowering": true
     },
-    forageStatAffected: true,
-    reinforcable: true,
-    resetBelowTemperature: -2,
-    stopBelowTemperature: 4,
-    revertBlockBelowTemperature: -4,
+    "forageStatAffected": true,
+    "reinforcable": true,
+    "resetBelowTemperature": -2,
+    "stopBelowTemperature": 4,
+    "revertBlockBelowTemperature": -4,
 
-    resetAboveTemperature: 35,
-    stopAboveTemperature: 30,
-    revertBlockAboveTemperature: 38,
-    stackable: true
+    "resetAboveTemperature": 35,
+    "stopAboveTemperature": 30,
+    "revertBlockAboveTemperature": 38,
+    "stackable": true
   },
-  entityclass: "BerryBush",
-  behaviorsByType: {
+  "entityclass": "BerryBush",
+  "behaviorsByType": {
     "*-ripe": [
       {
-        name: "Harvestable",
-        properties: {
-          harvestTime: 0.6,
-          harvestedStack: {
-            type: "item",
-            code: "camelliasinensis:tealeaves",
-            quantity: { avg: 16.0 }
+        "name": "Harvestable",
+        "properties": {
+          "harvestTime": 0.6,
+          "harvestedStack": {
+            "type": "item",
+            "code": "camelliasinensis:tealeaves",
+            "quantity": { "avg": 16.0 }
           },
-          harvestedBlockCode: "bigcamelliasinensisbush-empty",
-          exchangeBlock: true
+          "harvestedBlockCode": "bigcamelliasinensisbush-empty",
+          "exchangeBlock": true
         }
       }
-    ],
+    ]
   },
-  variantgroups: [
+  "variantgroups": [
     {
-      code: "state",
-      states: [ "empty", "flowering", "ripe" ]
-    },
+      "code": "state",
+      "states": [ "empty", "flowering", "ripe" ]
+    }
   ],
-  creativeinventory: {
+  "creativeinventory": {
     "general": [ "*" ],
     "flora": [ "*" ]
   },
-  renderpass: "OpaqueNoCull",
-  renderAlphaTest: 0.4,
-  shapeByType: {
+  "renderpass": "OpaqueNoCull",
+  "renderAlphaTest": 0.4,
+  "shape": {
+    "base": "game:block/basic/cross"
+  },
+  "blockmaterial": "Plant",
+  "textures": {
+    "leavessmall": { "base": "camelliasinensis:camelliasinensis" },
+    "leaveslarge": { "base": "camelliasinensis:camelliasinensis" }
+  },
+  "texturesByType": {
     "*-empty": {
-      base: "game:block/plant/berrybush/large*",
-      selectiveElements: [ "branchesN", "branchesS", "Leaves", "Largeleaves/*" ]
+      "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-empty" },
+      "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-empty" }
     },
-    "*": { "base": "game:block/plant/berrybush/large*" },
-  },
-  blockmaterial: "Plant",
-  textures: {
-    "leavessmall": { base: "camelliasinensis:block/plant/berrybush/large/leaves/camelliasinensis" },
-    "leaveslarge": { base: "camelliasinensis:block/plant/berrybush/large/leaves/camelliasinensis" },
-  },
-  texturesByType: {
     "*-flowering": {
-      "flowerberrysmalltop": { base: "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" },
-      "flowerberrysmall": { base: "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" },
-      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" },
+      "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-flowering" },
+      "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-flowering" }
     },
     "*-ripe": {
-      "flowerberrysmalltop": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" },
-      "flowerberrysmall": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" },
-      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" },
+      "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-ripe" },
+      "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-ripe" }
     }
   },
-  sideopaque: {
-    all: false
+  "sideopaque": {
+    "all": false
   },
-  sidesolid: {
-    all: false
+  "sidesolid": {
+    "all": false
   },
-  replaceable: 3000,
-  lightAbsorption: 0,
-  resistance: 0.5,
-  collisionbox: null,
-  sounds: {
-    place: "game:block/plant",
-    break: "game:block/plant",
-    hit: "game:block/plant",
-    inside: "game:walk/inside/leafy/bushrustle*"
+  "replaceable": 3000,
+  "lightAbsorption": 0,
+  "resistance": 0.5,
+  "collisionbox": null,
+  "sounds": {
+    "place": "game:block/plant",
+    "break": "game:block/plant",
+    "hit": "game:block/plant",
+    "inside": "game:walk/inside/leafy/bushrustle*"
   },
-  rainPermeable: false,
-  dropsByType: {
+  "rainPermeable": false,
+  "dropsByType": {
     "*-ripe": [
       {
-        type: "block",
-        code: "camelliasinensis:bigcamelliasinensisbush-empty",
-        quantity: { avg: 1 }
+        "type": "block",
+        "code": "camelliasinensis:bigcamelliasinensisbush-empty",
+        "quantity": { "avg": 1 }
       },
       {
         "type": "item",
         "code": "camelliasinensis:tealeaves",
         "quantity": { "avg": 4.4 }
-      },
+      }
     ],
     "*": [
       {
@@ -114,13 +112,13 @@
       }
     ]
   },
-  materialDensity: 400,
-  vertexFlags: {
-    zOffset: 2
+  "materialDensity": 400,
+  "vertexFlags": {
+    "zOffset": 2
   },
-  combustibleProps: {
-    burnTemperature: 600,
-    burnDuration: 10,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
   },
-  frostable: true,
+  "frostable": true
 }
