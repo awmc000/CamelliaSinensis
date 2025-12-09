@@ -4,6 +4,12 @@
   "materialDensityByType": {
     "*": 600
   },
+  "variantGroups": [
+    {
+      "code": "type",
+      "states": [ "green", "yellow", "white", "black", "puer" ]
+    }
+  ],
   "attributes": {
     "foodTags": [ "{fruit}" ],
     "nutritionPropsWhenInMeal": {
@@ -14,6 +20,21 @@
     }
   },
   "textureByType": {
+    "*-green": {
+      "base": "camelliasinensis:item/tealeaves-green"
+    },
+    "*-yellow": {
+      "base": "camelliasinensis:item/tealeaves-yellow"
+    },
+    "*-white": {
+      "base": "camelliasinensis:item/tealeaves-white"
+    },
+    "*-black": {
+      "base": "camelliasinensis:item/tealeaves-black"
+    },
+    "*-puer": {
+      "base": "camelliasinensis:item/tealeaves-puer"
+    },
     "*": { "base": "camelliasinensis:item/tealeaves.png" }
   },
   "creativeinventory": {

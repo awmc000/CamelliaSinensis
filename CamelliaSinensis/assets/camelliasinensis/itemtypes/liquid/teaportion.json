@@ -3,7 +3,7 @@
   "class": "ItemLiquidPortion",
   "variantGroups": [
     {
-      "code": "fruit",
+      "code": "type",
       "states": [ "green", "yellow", "white", "black", "puer" ]
     }
   ],
@@ -93,7 +93,7 @@
             "ucontents": [
               {
                 "type": "item",
-                "code": "camelliasinensis:teaportion",
+                "code": "camelliasinensis:teaportion-{type}",
                 "makefull": true
               }
             ]
