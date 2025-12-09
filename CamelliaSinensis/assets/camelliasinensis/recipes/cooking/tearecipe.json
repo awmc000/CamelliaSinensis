@@ -1,15 +1,15 @@
 {
-  "code": "soup",
+  "code": "teaportion-green",
   "perishableProps": {
     "freshHours": { "avg": 144 },
     "transitionHours": { "avg": 36 },
     "transitionRatio": 1,
     "transitionedStack": {
       "type": "item",
-      "code": "rot"
+      "code": "game:rot"
     }
   },
-  "shape": { "base": "block/food/meal/soup" },
+  "shape": { "base": "game:block/food/meal/soup" },
   "ingredients": [
     {
       "code": "stock",
@@ -30,7 +30,7 @@
       "validStacks": [
         {
           "type": "item",
-          "code": "tealeaves",
+          "code": "camelliasinensis:tealeaves",
           "shapeElement": "bowl/vegetable base 1/*"
         }
       ],
