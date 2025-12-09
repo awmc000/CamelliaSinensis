@@ -31,6 +31,10 @@
 		- Seal in a container: Becomes yellow tea
 		- Crush: macha
 			- Set in mold: becomes tea brick.
+
+- Chashui (peasant tea prep.): dilute tea in a big vessel
+	- Gives agricultural related buffs
+- Gongfucha (fancy tea prep.): gives crafting and combat buffs?
 ## Roadmap
 
 ✔×
@@ -50,13 +54,12 @@
 
 ### 0.4 ×
 
-- Tea-related
-- Tea brewing and processing mechanics added.
+- Basic Tea brewing and processing mechanics added.
 
 ### 0.5 ×
 
-- Tea items added to loot tables for ruins etc.
-- Connects with Better Ruins.
+- Advanced Tea brewing and processing mechanics added.
+- Chashui buffs working.
 
 ### 0.6 ×
 
@@ -64,7 +67,8 @@
 
 ### 0.7 ×
 
-- Tea buffs working.
+- Tea items added to loot tables for ruins etc.
+- Connects with Better Ruins.
 
 ### 0.8 ×
 
