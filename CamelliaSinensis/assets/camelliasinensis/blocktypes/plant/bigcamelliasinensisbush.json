@@ -57,8 +57,8 @@
   },
   "blockmaterial": "Plant",
   "textures": {
-    "leavessmall": { "base": "camelliasinensis:camelliasinensis" },
-    "leaveslarge": { "base": "camelliasinensis:camelliasinensis" }
+    "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-empty" },
+    "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-empty" }
   },
   "texturesByType": {
     "*-empty": {

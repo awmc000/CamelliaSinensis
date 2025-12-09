@@ -1,0 +1,18 @@
+[
+	{
+		"code": "tea",
+		"ingredients": [
+				{
+					"type": "item",
+					"code": "game:waterportion",
+					"litres": 1
+				},
+				{
+					"type": "item",
+					"code": "camelliasinensis:tealeaves",
+					"quantity": 1
+				}
+		],
+		"output": { "type": "item", "code": "camelliasinensis:teaportion", "litres": 1.0 }
+	},
+]

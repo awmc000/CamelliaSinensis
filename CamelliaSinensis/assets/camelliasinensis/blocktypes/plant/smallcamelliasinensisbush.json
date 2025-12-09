@@ -54,21 +54,27 @@
   "renderAlphaTest": 0.4,
   "randomDrawOffset": true,
   "shape": {
-    "base": "block/basic/cross"
+    "base": "game:block/basic/cross",
+    "scale": 0.5
   },
   "blockmaterial": "Plant",
   "texturesByType": {
-    "*-empty": {
-      "base": {"camelliasinensis:camelliasinensis-empty"}
-    }
-    "*-flowering": {
-      "flowerberrysmall": { "base": "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" },
-      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/flower/camelliasinensis" }
+    "*": {
+      "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-sprout*" },
+      "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-sprout*" }
     },
-    "*-ripe": {
-      "flowerberrysmall": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" },
-      "flowerberrylarge": { "base": "camelliasinensis:block/plant/berrybush/large/fruit/camelliasinensis" }
-    }
+    //"*-empty": {
+    //  "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-empty" },
+    //  "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-empty" }
+    //},
+    //"*-flowering": {
+    //  "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-flowering" },
+    //  "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-flowering" }
+    //},
+    //"*-ripe": {
+    //  "north": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-ripe" },
+    //  "south": { "base": "camelliasinensis:block/plant/berrybush/camelliasinensis-ripe" }
+    //}
   },
   "sideopaque": {
     "all": false

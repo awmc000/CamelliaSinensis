@@ -1,3 +1,10 @@
 {
-    "hello": "hello world!"
+  "block-bigcamelliasinensisbush-empty": "Camellia Sinensis (Empty)",
+  "block-bigcamelliasinensisbush-flowering": "Camellia Sinensis (Flowering)",
+  "block-bigcamelliasinensisbush-ripe": "Camellia Sinensis (Ripe)",
+  "block-smallcamelliasinensisbush-empty": "Camellia Sinensis Sapling (Empty)",
+  "block-smallcamelliasinensisbush-flowering": "Camellia Sinensis Sapling (Flowering)",
+  "block-smallcamelliasinensisbush-ripe": "Camellia Sinensis Sapling (Ripe)",
+  "item-tealeaves": "Fresh Camellia Sinensis Leaves",
+  "incontainer-item-teaportion": "Green Tea"
 }
