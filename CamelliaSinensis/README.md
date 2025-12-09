@@ -17,11 +17,11 @@
 
 ✔×
 
-### 0.1 ×
+### 0.1 ✔
 
 - Art assets created.
 
-### 0.2 ×
+### 0.2 ✔
 
 - Tea plants in game.
 - Tea plants spawn in nature.

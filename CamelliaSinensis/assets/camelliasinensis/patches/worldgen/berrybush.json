@@ -11,13 +11,13 @@
       "maxRain": 0.62,
       "minFertility": 0,
       "maxFertility": 0.7,
-      "chance": 0.5,
+      "chance": 0.2,
       "minForest": 0,
       "maxForest": 0.6,
       "maxY": 0.48,
       "quantity": {
-        "avg": 5,
-        "var": 2
+        "avg": 2,
+        "var": 1
       },
       "offsetX": {
         "avg": 0,
