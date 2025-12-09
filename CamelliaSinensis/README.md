@@ -13,6 +13,24 @@
 - Pu'er tea 
 	- Pick fresh leaves, steam them, leave to dry, wrap up for aging.
 
+## Some dev notes
+
+- Drying: Use transitional state, model on toolheads/bowstaves
+- Fermenting: see drying.
+- Steaming: ... will just be cooking, but we'll add a steamer
+- Brewing: will also just be cooking.
+- Tea leaf items will need to be made for all intermediate stages of production
+	- A sort of decision tree follows
+
+- Picked: useless
+	- Sun dry: useless
+		- Smoke: Black tea
+	- Steam them: useless
+		- Allow to dry: green tea
+			- Wrap up for aging: becomes pu'er.
+		- Seal in a container: Becomes yellow tea
+		- Crush: macha
+			- Set in mold: becomes tea brick.
 ## Roadmap
 
 ✔×
