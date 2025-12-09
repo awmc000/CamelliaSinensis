@@ -6,5 +6,9 @@
   "block-smallcamelliasinensisbush-flowering": "Camellia Sinensis Sapling (Flowering)",
   "block-smallcamelliasinensisbush-ripe": "Camellia Sinensis Sapling (Ripe)",
   "item-tealeaves": "Fresh Camellia Sinensis Leaves",
-  "incontainer-item-teaportion": "Green Tea"
+  "incontainer-item-teaportion-green": "Green Tea",
+  "incontainer-item-teaportion-yellow": "Yellow Tea",
+  "incontainer-item-teaportion-white": "White Tea",
+  "incontainer-item-teaportion-black": "Black Tea",
+  "incontainer-item-teaportion-puer": "Pu'Er Tea"
 }

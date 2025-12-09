@@ -1,0 +1,42 @@
+{
+  "code": "soup",
+  "perishableProps": {
+    "freshHours": { "avg": 144 },
+    "transitionHours": { "avg": 36 },
+    "transitionRatio": 1,
+    "transitionedStack": {
+      "type": "item",
+      "code": "rot"
+    }
+  },
+  "shape": { "base": "block/food/meal/soup" },
+  "ingredients": [
+    {
+      "code": "stock",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "game:waterportion",
+          "shapeElement": "bowl/water"
+        }
+      ],
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "portionSizeLitres": 1,
+      "typeName": "stock"
+    },
+    {
+      "code": "vegetable-base",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "tealeaves",
+          "shapeElement": "bowl/vegetable base 1/*"
+        }
+      ],
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "typeName": "vegetable"
+    }
+  ]
+}

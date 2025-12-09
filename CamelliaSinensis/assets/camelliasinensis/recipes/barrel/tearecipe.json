@@ -13,6 +13,6 @@
 					"quantity": 1
 				}
 		],
-		"output": { "type": "item", "code": "camelliasinensis:teaportion", "litres": 1.0 }
+		"output": { "type": "item", "code": "camelliasinensis:teaportion-green", "litres": 1.0 }
 	},
 ]
