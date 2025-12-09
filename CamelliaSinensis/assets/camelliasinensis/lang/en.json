@@ -10,5 +10,15 @@
   "incontainer-item-teaportion-yellow": "Yellow Tea",
   "incontainer-item-teaportion-white": "White Tea",
   "incontainer-item-teaportion-black": "Black Tea",
-  "incontainer-item-teaportion-puer": "Pu'Er Tea"
+  "incontainer-item-teaportion-puer": "Pu'Er Tea",
+  "meal-normal-teaportion-green": "green tea serving",
+  "meal-normal-teaportion-yellow": "yellow tea serving",
+  "meal-normal-teaportion-white": "white tea serving",
+  "meal-normal-teaportion-black": "black tea serving",
+  "meal-normal-teaportion-puer": "pu'er tea serving",
+  "meal-recipe-name-teaportion-green-in-container": "green tea",
+  "meal-recipe-name-teaportion-yellow-in-container": "yellow tea",
+  "meal-recipe-name-teaportion-white-in-container": "white tea",
+  "meal-recipe-name-teaportion-black-in-container": "black tea",
+  "meal-recipe-name-teaportion-puer-in-container": "pu'er tea"
 }
