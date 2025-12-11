@@ -1,5 +1,5 @@
 {
-  "code": "teaportion-green",
+  "code": "steamedtealeaves",
   "perishableProps": {
     "freshHours": { "avg": 144 },
     "transitionHours": { "avg": 36 },
@@ -9,8 +9,8 @@
       "code": "game:rot"
     }
   },
+  "shape": { "base": "game:block/food/meal/soup" },
   "isFood": true,
-  "shape": { "base": "block/food/meal/liquid" },
   "ingredients": [
     {
       "code": "water",
@@ -31,7 +31,7 @@
       "validStacks": [
         {
           "type": "item",
-          "code": "camelliasinensis:tealeaves-green",
+          "code": "camelliasinensis:tealeaves-fresh",
           "shapeElement": "bowl/vegetable base 1/*"
         }
       ],
@@ -42,7 +42,7 @@
   ],
   "cooksInto": {
     "type": "Item",
-    "code": "camelliasinensis:teaportion-green",
-    "quantity": 100
+    "code": "camelliasinensis:steamedtealeaves",
+    "quantity": 1
   }
 }

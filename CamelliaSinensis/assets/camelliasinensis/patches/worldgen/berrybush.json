@@ -3,18 +3,24 @@
     "op": "addmerge",
     "path": "/-",
     "value": {
-      "comment": "Small patches of Camellia Sinensis",
-      "blockCodes": [ "camelliasinensis:bigcamelliasinensisbush-empty", "camelliasinensis:bigcamelliasinensisbush-flowering", "camelliasinensis:bigcamelliasinensisbush-ripe" ],
-      "minTemp": 10,
-      "maxTemp": 16,
-      "minRain": 0.2,
-      "maxRain": 0.62,
+      "comment": "Small patches of Camellia Sinensis in high altitude high moisture areas.",
+      "blockCodes": [
+        "camelliasinensis:bigcamelliasinensisbush-empty",
+        "camelliasinensis:bigcamelliasinensisbush-flowering",
+        "camelliasinensis:bigcamelliasinensisbush-ripe",
+        "camelliasinensis:smallcamelliasinensisbush-empty",
+        "camelliasinensis:smallcamelliasinensisbush-flowering",
+        "camelliasinensis:smallcamelliasinensisbush-ripe"
+      ],
+      "minTemp": 17,
+      "minRain": 0.4,
+      "maxRain": 0.95,
       "minFertility": 0,
       "maxFertility": 0.7,
-      "chance": 0.2,
+      "chance": 0.05,
       "minForest": 0,
-      "maxForest": 0.6,
-      "maxY": 0.48,
+      "maxForest": 0.85,
+      "maxY": 0.8,
       "quantity": {
         "avg": 2,
         "var": 1

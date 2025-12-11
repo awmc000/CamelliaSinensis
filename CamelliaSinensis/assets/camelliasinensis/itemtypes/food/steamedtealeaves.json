@@ -1,63 +1,27 @@
 {
-  "code": "tealeaves",
+  "code": "steamedtealeaves",
   "maxstacksize": 64,
   "materialDensityByType": {
     "*": 600
   },
-  "variantGroups": [
-    {
-      "code": "type",
-      "states": [ "fresh", "green", "yellow", "white", "black", "puer" ]
-    }
-  ],
-  "attributes": {
-    "foodTags": [ "{fruit}" ],
-    "nutritionPropsWhenInMeal": {
-      "satietyByType": {
-        "*": 120
-      },
-      "foodcategory": "Fruit"
-    }
-  },
-  "textureByType": {
-    "*-green": {
-      "base": "camelliasinensis:item/tealeaves-green"
-    },
-    "*-yellow": {
-      "base": "camelliasinensis:item/tealeaves-yellow"
-    },
-    "*-white": {
-      "base": "camelliasinensis:item/tealeaves-white"
-    },
-    "*-black": {
-      "base": "camelliasinensis:item/tealeaves-black"
-    },
-    "*-puer": {
-      "base": "camelliasinensis:item/tealeaves-puer"
-    },
-    "*": { "base": "camelliasinensis:item/tealeaves.png" }
+  "texture": {
+    "base": "camelliasinensis:item/tealeaves-yellow"
   },
   "creativeinventory": {
     "general": [ "*" ],
     "items": [ "*" ]
   },
-  "nutritionPropsByType": {
-    "*": {
-      "satiety": 80,
-      "foodcategory": "Fruit"
-    }
-  },
   "transitionablePropsByType": {
     "*": [
       {
-        "type": "Perish",
-        "freshHours": { "avg": 72 },
-        "transitionHours": { "avg": 12 },
+        "type": "Dry",
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 168 },
         "transitionedStack": {
           "type": "item",
-          "code": "game:rot"
+          "code": "camelliasinensis:tealeaves-green"
         },
-        "transitionRatio": 0.25
+        "transitionRatio": 1
       }
     ]
   },

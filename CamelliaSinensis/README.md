@@ -48,11 +48,11 @@
 - Tea plants in game.
 - Tea plants spawn in nature.
 
-### 0.3 ×
+### 0.3 ✔
 
 - Tea related items added to the game.
 
-### 0.4 ×
+### 0.4 WIP
 
 - Basic Tea brewing and processing mechanics added.
 

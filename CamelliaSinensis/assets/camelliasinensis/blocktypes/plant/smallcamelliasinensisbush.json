@@ -31,7 +31,7 @@
           "harvestTime": 0.6,
           "harvestedStack": {
             "type": "item",
-            "code": "camelliasinensis:tealeaves",
+            "code": "camelliasinensis:tealeaves-fresh",
             "quantity": { "avg": 4.4 }
           },
           "harvestedBlockCode": "camelliasinensis:smallcamelliasinensisbush-empty",
@@ -102,7 +102,7 @@
       },
       {
         "type": "item",
-        "code": "tealeaves",
+        "code": "tealeaves-fresh",
         "quantity": { "avg": 4.4 }
       }
     ],
