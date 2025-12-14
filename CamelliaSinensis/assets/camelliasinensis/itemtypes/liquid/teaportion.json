@@ -46,7 +46,7 @@
         "action": "DropContents",
         "stack": {
           "type": "item",
-          "code": "teaportion"
+          "code": "camelliasinensis:teaportion-{type}"
         }
       },
       "nutritionPropsPerLitre": {
@@ -104,6 +104,25 @@
   ],
   "maxstacksize": 5000,
   "materialDensity": 200,
+  "behaviorsByType": {
+    "green": [
+      {
+        "name": "XLibConsumable",
+        "properties": {
+          "triggers": [
+            {
+              "effect": "camelliasinensis:caffeinatedgreen",
+              "chance": 1.0,
+              "perishweight": 0.25,
+              "intensity": 0.1,
+              "randomintensity": 0.1,
+              "perishintensity": 0.3
+            }
+          ]
+        }
+      }
+    ]
+  },
   "guiTransform": {
     "translation": {
       "x": 0,
