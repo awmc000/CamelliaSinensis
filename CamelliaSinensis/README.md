@@ -35,6 +35,8 @@
 - Chashui (peasant tea prep.): dilute tea in a big vessel
 	- Gives agricultural related buffs
 - Gongfucha (fancy tea prep.): gives crafting and combat buffs?
+
+- Collectible behavior for tea portion can trigger effect when drunk.
 ## Roadmap
 
 ✔×
@@ -52,22 +54,23 @@
 
 - Tea related items added to the game.
 
-### 0.4 WIP
+### 0.4 ✔
 
-- Basic Tea brewing and processing mechanics added.
+- Basic Tea brewing and processing (green and black) mechanics added.
+- Tea items added to trader tables & loot tables.
 
-### 0.5 ×
+### 0.5 WIP
 
-- Advanced Tea brewing and processing mechanics added.
+- Advanced Tea brewing and processing mechanics (brick, pu'er, white, yellow) added.
 - Chashui buffs working.
 
 ### 0.6 ×
 
-- Teaware clay recipes added.
+- C# implementation of better tea brewing flow.
 
 ### 0.7 ×
 
-- Tea items added to loot tables for ruins etc.
+
 - Connects with Better Ruins.
 
 ### 0.8 ×

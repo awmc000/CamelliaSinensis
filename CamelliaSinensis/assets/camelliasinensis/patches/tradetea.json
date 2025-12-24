@@ -1,0 +1,96 @@
+[
+  {
+    "side": "server",
+    "file": "game:config/tradelists/trader-agriculture",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "camelliasinensis:tealeaves-green",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 12,
+          "var": 3
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "side": "server",
+    "file": "game:config/tradelists/trader-luxuries",
+    "op": "addmerge",
+    "path": "/selling/list",
+    "value": [
+      {
+        "code": "camelliasinensis:tealeaves-green",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 12,
+          "var": 3
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "camelliasinensis:tealeaves-black",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 12,
+          "var": 3
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "camelliasinensis:tealeaves-white",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 12,
+          "var": 3
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "camelliasinensis:tealeaves-yellow",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 12,
+          "var": 3
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      },
+      {
+        "code": "camelliasinensis:tealeaves-puer",
+        "type": "item",
+        "stacksize": 16,
+        "stock": {
+          "avg": 12,
+          "var": 3
+        },
+        "price": {
+          "avg": 2,
+          "var": 0.5
+        }
+      }
+    ]
+  }
+]

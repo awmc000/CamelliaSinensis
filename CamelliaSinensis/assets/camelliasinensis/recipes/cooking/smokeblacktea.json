@@ -1,0 +1,34 @@
+{
+  "code": "tealeaves-black",
+  "perishableProps": {
+    "freshHours": { "avg": 144 },
+    "transitionHours": { "avg": 36 },
+    "transitionRatio": 1,
+    "transitionedStack": {
+      "type": "item",
+      "code": "game:rot"
+    }
+  },
+  "isFood": true,
+  "shape": { "base": "block/food/meal/liquid" },
+  "ingredients": [
+    {
+      "code": "tealeaf",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "camelliasinensis:tealeaves-withered",
+          "shapeElement": "bowl/vegetable base 1/*"
+        }
+      ],
+      "minQuantity": 1,
+      "maxQuantity": 32,
+      "typeName": "tealeaf"
+    }
+  ],
+  "cooksInto": {
+    "type": "Item",
+    "code": "camelliasinensis:tealeaves-black",
+    "quantity": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "code": "teaportion-black",
+  "perishableProps": {
+    "freshHours": { "avg": 144 },
+    "transitionHours": { "avg": 36 },
+    "transitionRatio": 1,
+    "transitionedStack": {
+      "type": "item",
+      "code": "game:rot"
+    }
+  },
+  "isFood": true,
+  "shape": { "base": "block/food/meal/liquid" },
+  "ingredients": [
+    {
+      "code": "water",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "game:waterportion",
+          "shapeElement": "bowl/water"
+        }
+      ],
+      "minQuantity": 1,
+      "maxQuantity": 5,
+      "portionSizeLitres": 1,
+      "typeName": "water"
+    },
+    {
+      "code": "tealeaf",
+      "validStacks": [
+        {
+          "type": "item",
+          "code": "camelliasinensis:tealeaves-black",
+          "shapeElement": "bowl/vegetable base 1/*"
+        }
+      ],
+      "minQuantity": 1,
+      "maxQuantity": 5,
+      "typeName": "tealeaf"
+    }
+  ],
+  "cooksInto": {
+    "type": "Item",
+    "code": "camelliasinensis:teaportion-black",
+    "quantity": 100
+  }
+}

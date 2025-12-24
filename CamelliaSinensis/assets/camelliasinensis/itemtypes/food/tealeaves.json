@@ -7,7 +7,8 @@
   "variantGroups": [
     {
       "code": "type",
-      "states": [ "fresh", "green", "yellow", "white", "black", "puer" ]
+      "states": [ "fresh", "withered", 
+                  "green", "yellow", "white", "black", "puer" ]
     }
   ],
   "attributes": {
@@ -35,6 +36,9 @@
     "*-puer": {
       "base": "camelliasinensis:item/tealeaves-puer"
     },
+    "*-withered": {
+      "base": "camelliasinensis:item/tealeaves-black"
+    },
     "*": { "base": "camelliasinensis:item/tealeaves.png" }
   },
   "creativeinventory": {
@@ -48,16 +52,16 @@
     }
   },
   "transitionablePropsByType": {
-    "*": [
+    "*-fresh": [
       {
-        "type": "Perish",
-        "freshHours": { "avg": 72 },
-        "transitionHours": { "avg": 12 },
+        "type": "Dry",
+        "freshHours": { "avg": 0 },
+        "transitionHours": { "avg": 336 },
         "transitionedStack": {
           "type": "item",
-          "code": "game:rot"
+          "code": "camelliasinensis:tealeaves-withered"
         },
-        "transitionRatio": 0.25
+        "transitionRatio": 1
       }
     ]
   },

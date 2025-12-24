@@ -18,27 +18,27 @@
       "texturebytype": {
         "*-green": {
           "base": "game:block/liquid/honey",
-          "alpha": 180
+          "alpha": 130
         },
         "*-yellow": {
           "base": "game:block/food/pie/fill-fish",
-          "alpha": 180
+          "alpha": 130
         },
         "*-white": {
           "base": "game:block/food/dairy/milk",
-          "alpha": 180
+          "alpha": 130
         },
         "*-black": {
           "base": "game:block/food/pie/fill-gooseberry",
-          "alpha": 180
+          "alpha": 130
         },
         "*-puer": {
           "base": "game:block/food/pie/fill-poultry",
-          "alpha": 180
+          "alpha": 130
         },
         "*": {
           "base": "game:block/liquid/honey",
-          "alpha": 180
+          "alpha": 130
         }
       },
       "allowSpill": true,
