@@ -61,7 +61,7 @@
 
 ### 0.5 WIP
 
-- Advanced Tea brewing and processing mechanics (brick, pu'er, white, yellow) added.
+- Advanced Tea brewing and processing mechanics (brick, pu'er, white, yellow, matcha) added.
 - Chashui buffs working.
 
 ### 0.6 ×
